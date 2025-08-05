@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VFX Trading Platform</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Matrix Background -->
+    <canvas id="matrix-bg"></canvas>
+    
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="vfx-logo">
+                        <svg viewBox="0 0 120 70" class="logo-svg">
+                            <defs>
+                                <!-- Green gradient for V -->
+                                <linearGradient id="vGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#00ffaa;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#007744;stop-opacity:1" />
+                                </linearGradient>
+                                
+                                <!-- Yellow gradient for FX -->
+                                <linearGradient id="fxGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#ffdd00;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#ff9900;stop-opacity:1" />
+                                </linearGradient>
+                                
+                                <!-- Glow effects -->
+                                <filter id="vGlow" x="-30%" y="-30%" width="160%" height="160%">
+                                    <feGaussianBlur stdDeviation="3" result="blur"/>
+                                    <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+                                </filter>
+                                
+                                <filter id="fxGlow" x="-30%" y="-30%" width="160%" height="160%">
+                                    <feGaussianBlur stdDeviation="2" result="blur"/>
+                                    <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+                                </filter>
+                                
+                                <!-- Futuristic background effect -->
+                                <radialGradient id="bgGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+                                    <stop offset="0%" style="stop-color:#001a11;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />
+                                </radialGradient>
+                            </defs>
+                            
+                            <!-- Background -->
+                            <rect width="100%" height="100%" fill="url(#bgGradient)"/>
+                            
+                            <!-- Futuristic grid lines in background -->
+                            <path d="M0 35 H120 M60 0 V70" stroke="#003322" stroke-width="0.5" stroke-dasharray="2 2"/>
+                            
+                            <!-- Big V (green) -->
+                            <path d="M10 10 L25 50 L40 10" 
+                                stroke="url(#vGradient)" 
+                                stroke-width="5" 
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                fill="none" 
+                                filter="url(#vGlow)"/>
+                            
+                            <!-- FX group (yellow/black) -->
+                            <g transform="translate(45, 5)">
+                                <!-- F -->
+                                <path d="M5 15 L5 45 M5 15 L20 15 M5 30 L15 30" 
+                                    stroke="url(#fxGradient)" 
+                                    stroke-width="3" 
+                                    fill="none" 
+                                    filter="url(#fxGlow)"/>
+                                
+                                <!-- X -->
+                                <path d="M25 15 L40 45 M40 15 L25 45" 
+                                    stroke="url(#fxGradient)" 
+                                    stroke-width="3" 
+                                    fill="none" 
+                                    filter="url(#fxGlow)"/>
+                                
+                                <!-- Arrow -->
+                                <path d="M50 35 L65 20 L60 25 L65 20 L60 15" 
+                                    stroke="#ffdd00" 
+                                    stroke-width="2" 
+                                    fill="none" 
+                                    filter="url(#fxGlow)"/>
+                            </g>
+                            
+                            <!-- Additional futuristic elements -->
+                            <circle cx="10" cy="10" r="1.5" fill="#00ffaa" filter="url(#vGlow)"/>
+                            <circle cx="40" cy="10" r="1.5" fill="#00ffaa" filter="url(#vGlow)"/>
+                            <circle cx="70" cy="20" r="1" fill="#ffdd00" filter="url(#fxGlow)"/>
+                            <circle cx="90" cy="15" r="1" fill="#ffdd00" filter="url(#fxGlow)"/>
+                        </svg>
+                    </div>
+                    <div class="logo-text">
+                        <h1>VFX TRADING</h1>
+                        <span class="version">v3.0.0 • LIVE</span>
+                    </div>
+                    <div class="status-indicator">
+                        <div class="pulse-dot"></div>
+                        <span>ACTIVE</span>
+                    </div>
+                </div>
+                
+                <nav class="nav-menu">
+                    <a href="#dashboard" class="nav-link active">Dashboard</a>
+                    <a href="#strategies" class="nav-link">Strategies</a>
+                    <a href="#analytics" class="nav-link">Analytics</a>
+                    <a href="#risk" class="nav-link">Risk</a>
+                    <a href="#settings" class="nav-link">Settings</a>
+                </nav>
+                
+                <div class="header-controls">
+                    <div class="connection-status">
+                        <div class="status-light"></div>
+                        <span>C++ Engine</span>
+                    </div>
+                    <div class="latency-display">
+                        <span id="latency">0.23ms</span>
+                    </div>
+                    <button class="emergency-stop">STOP</button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Left Panel - Trading -->
+            <section class="left-panel">
+                <!-- Portfolio Overview -->
+                <div class="panel portfolio-panel">
+                    <div class="panel-header">
+                        <h3>Portfolio Performance</h3>
+                        <div class="panel-controls">
+                            <button class="time-btn active">1D</button>
+                            <button class="time-btn">1W</button>
+                            <button class="time-btn">1M</button>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-stats">
+                        <div class="stat-card">
+                            <span class="stat-label">Total Value</span>
+                            <span class="stat-value" id="total-value">$2,847,293.45</span>
+                            <span class="stat-change positive">+18.7%</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-label">Today's P&L</span>
+                            <span class="stat-value" id="daily-pnl">+$428,156.78</span>
+                            <span class="stat-change positive">+17.7%</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-label">Win Rate</span>
+                            <span class="stat-value">94.3%</span>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 94.3%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Price Chart -->
+                    <div class="chart-container">
+                        <canvas id="price-chart"></canvas>
+                    </div>
+                </div>
+                
+                <!-- Trading Activity -->
+                <div class="panel activity-panel">
+                    <div class="panel-header">
+                        <h3>Live Trading Activity</h3>
+                        <div class="activity-indicator">
+                            <div class="pulse-dot"></div>
+                            <span>Real-time Feed</span>
+                        </div>
+                    </div>
+                    
+                    <div class="activity-table">
+                        <div class="table-header">
+                            <span>Time</span>
+                            <span>Symbol</span>
+                            <span>Side</span>
+                            <span>Price</span>
+                            <span>Qty</span>
+                            <span>P&L</span>
+                        </div>
+                        <div class="table-body" id="trading-log">
+                            <!-- Trading entries will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Right Panel - Controls -->
+            <section class="right-panel">
+                <!-- Quick Trade -->
+                <div class="panel trade-panel">
+                    <div class="panel-header">
+                        <h3>Quick Execute</h3>
+                        <div class="trade-mode">
+                            <button class="mode-btn active">MANUAL</button>
+                            <button class="mode-btn">AUTO</button>
+                        </div>
+                    </div>
+                    
+                    <div class="trade-form">
+                        <div class="input-group">
+                            <label>Asset</label>
+                            <select id="asset-select">
+                                <option value="BTC/USD">BTC/USD</option>
+                                <option value="ETH/USD">ETH/USD</option>
+                                <option value="AAPL">AAPL</option>
+                                <option value="TSLA">TSLA</option>
+                                <option value="NVDA">NVDA</option>
+                            </select>
+                        </div>
+                        
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Quantity</label>
+                                <input type="number" id="quantity" placeholder="0.00">
+                            </div>
+                            <div class="input-group">
+                                <label>Price</label>
+                                <input type="number" id="price" placeholder="Market">
+                            </div>
+                        </div>
+                        
+                        <div class="trade-buttons">
+                            <button class="trade-btn buy-btn" id="buy-btn">
+                                <span>BUY</span>
+                                <div class="btn-glow"></div>
+                            </button>
+                            <button class="trade-btn sell-btn" id="sell-btn">
+                                <span>SELL</span>
+                                <div class="btn-glow"></div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Live Metrics -->
+                <div class="panel metrics-panel">
+                    <div class="panel-header">
+                        <h3>System Metrics</h3>
+                    </div>
+                    
+                    <div class="metrics-grid">
+                        <div class="metric-card">
+                            <span class="metric-label">Open Positions</span>
+                            <span class="metric-value" id="open-positions">24</span>
+                            <div class="metric-icon">📊</div>
+                        </div>
+                        <div class="metric-card">
+                            <span class="metric-label">Margin Used</span>
+                            <span class="metric-value" id="margin-used">32.1%</span>
+                            <div class="metric-icon">⚡</div>
+                        </div>
+                        <div class="metric-card">
+                            <span class="metric-label">CPU Usage</span>
+                            <span class="metric-value" id="cpu-usage">15.8%</span>
+                            <div class="metric-icon">🔥</div>
+                        </div>
+                        <div class="metric-card">
+                            <span class="metric-label">Memory</span>
+                            <span class="metric-value" id="memory-usage">8.2GB</span>
+                            <div class="metric-icon">💾</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Risk Gauge -->
+                    <div class="risk-gauge">
+                        <div class="gauge-header">
+                            <span>Risk Level</span>
+                            <span class="risk-status">LOW</span>
+                        </div>
+                        <div class="gauge-bar">
+                            <div class="gauge-fill" style="width: 32.1%"></div>
+                            <div class="gauge-indicator"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Strategy Status -->
+                <div class="panel strategy-panel">
+                    <div class="panel-header">
+                        <h3>Active Strategies</h3>
+                    </div>
+                    
+                    <div class="strategy-list" id="strategy-list">
+                        <div class="strategy-item active">
+                            <div class="strategy-info">
+                                <span class="strategy-name">Momentum Alpha</span>
+                                <span class="strategy-performance">+24.8%</span>
+                            </div>
+                            <div class="strategy-status running"></div>
+                        </div>
+                        <div class="strategy-item active">
+                            <div class="strategy-info">
+                                <span class="strategy-name">Mean Reversion</span>
+                                <span class="strategy-performance">+12.3%</span>
+                            </div>
+                            <div class="strategy-status running"></div>
+                        </div>
+                        <div class="strategy-item">
+                            <div class="strategy-info">
+                                <span class="strategy-name">Arbitrage Scanner</span>
+                                <span class="strategy-performance">+8.7%</span>
+                            </div>
+                            <div class="strategy-status paused"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Notification Container -->
+    <div id="notification-container"></div>
+
+    <!-- JavaScript Files -->
+    <script src="js/matrix.js"></script>
+    <script src="js/websocket.js"></script>
+    <script src="js/charts.js"></script>
+    <script src="js/notifications.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

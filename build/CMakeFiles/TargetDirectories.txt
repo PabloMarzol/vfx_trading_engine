@@ -1,0 +1,3 @@
+E:/INMAV/Trading/vfx-trading/vfx-trading/build/CMakeFiles/vfx_trading_engine.dir
+E:/INMAV/Trading/vfx-trading/vfx-trading/build/CMakeFiles/edit_cache.dir
+E:/INMAV/Trading/vfx-trading/vfx-trading/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\vfx_trading_engine.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\vfx_trading_engine.dir/objects.a @CMakeFiles\vfx_trading_engine.dir\objects1.rsp
+C:\mingw64\bin\c++.exe  -static-libgcc -static-libstdc++ -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\vfx_trading_engine.dir/objects.a -Wl,--no-whole-archive -o vfx_trading_engine.exe -Wl,--out-implib,libvfx_trading_engine.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\vfx_trading_engine.dir\linkLibs.rsp
