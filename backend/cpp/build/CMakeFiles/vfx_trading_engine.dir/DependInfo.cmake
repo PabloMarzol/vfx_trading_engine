@@ -10,8 +10,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/INMAV/Trading/vfx-trading/vfx-trading/backend/cpp/src/main.cpp" "CMakeFiles/vfx_trading_engine.dir/src/main.cpp.obj" "gcc" "CMakeFiles/vfx_trading_engine.dir/src/main.cpp.obj.d"
   "E:/INMAV/Trading/vfx-trading/vfx-trading/backend/cpp/src/market_data.cpp" "CMakeFiles/vfx_trading_engine.dir/src/market_data.cpp.obj" "gcc" "CMakeFiles/vfx_trading_engine.dir/src/market_data.cpp.obj.d"
+  "E:/INMAV/Trading/vfx-trading/vfx-trading/backend/cpp/src/message_protocol.cpp" "CMakeFiles/vfx_trading_engine.dir/src/message_protocol.cpp.obj" "gcc" "CMakeFiles/vfx_trading_engine.dir/src/message_protocol.cpp.obj.d"
   "E:/INMAV/Trading/vfx-trading/vfx-trading/backend/cpp/src/order_manager.cpp" "CMakeFiles/vfx_trading_engine.dir/src/order_manager.cpp.obj" "gcc" "CMakeFiles/vfx_trading_engine.dir/src/order_manager.cpp.obj.d"
   "E:/INMAV/Trading/vfx-trading/vfx-trading/backend/cpp/src/risk_manager.cpp" "CMakeFiles/vfx_trading_engine.dir/src/risk_manager.cpp.obj" "gcc" "CMakeFiles/vfx_trading_engine.dir/src/risk_manager.cpp.obj.d"
+  "E:/INMAV/Trading/vfx-trading/vfx-trading/backend/cpp/src/strategy_manager.cpp" "CMakeFiles/vfx_trading_engine.dir/src/strategy_manager.cpp.obj" "gcc" "CMakeFiles/vfx_trading_engine.dir/src/strategy_manager.cpp.obj.d"
   "E:/INMAV/Trading/vfx-trading/vfx-trading/backend/cpp/src/trading_engine.cpp" "CMakeFiles/vfx_trading_engine.dir/src/trading_engine.cpp.obj" "gcc" "CMakeFiles/vfx_trading_engine.dir/src/trading_engine.cpp.obj.d"
   "E:/INMAV/Trading/vfx-trading/vfx-trading/backend/cpp/src/websocket_server.cpp" "CMakeFiles/vfx_trading_engine.dir/src/websocket_server.cpp.obj" "gcc" "CMakeFiles/vfx_trading_engine.dir/src/websocket_server.cpp.obj.d"
   )

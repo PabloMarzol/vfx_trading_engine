@@ -161,6 +161,36 @@ CMakeFiles/vfx_trading_engine.dir/src/risk_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vfx_trading_engine.dir/src/risk_manager.cpp.s"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\INMAV\Trading\vfx-trading\vfx-trading\backend\cpp\src\risk_manager.cpp -o CMakeFiles\vfx_trading_engine.dir\src\risk_manager.cpp.s
 
+CMakeFiles/vfx_trading_engine.dir/src/message_protocol.cpp.obj: CMakeFiles/vfx_trading_engine.dir/flags.make
+CMakeFiles/vfx_trading_engine.dir/src/message_protocol.cpp.obj: CMakeFiles/vfx_trading_engine.dir/includes_CXX.rsp
+CMakeFiles/vfx_trading_engine.dir/src/message_protocol.cpp.obj: E:/INMAV/Trading/vfx-trading/vfx-trading/backend/cpp/src/message_protocol.cpp
+CMakeFiles/vfx_trading_engine.dir/src/message_protocol.cpp.obj: CMakeFiles/vfx_trading_engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\INMAV\Trading\vfx-trading\vfx-trading\backend\cpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/vfx_trading_engine.dir/src/message_protocol.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vfx_trading_engine.dir/src/message_protocol.cpp.obj -MF CMakeFiles\vfx_trading_engine.dir\src\message_protocol.cpp.obj.d -o CMakeFiles\vfx_trading_engine.dir\src\message_protocol.cpp.obj -c E:\INMAV\Trading\vfx-trading\vfx-trading\backend\cpp\src\message_protocol.cpp
+
+CMakeFiles/vfx_trading_engine.dir/src/message_protocol.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vfx_trading_engine.dir/src/message_protocol.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\INMAV\Trading\vfx-trading\vfx-trading\backend\cpp\src\message_protocol.cpp > CMakeFiles\vfx_trading_engine.dir\src\message_protocol.cpp.i
+
+CMakeFiles/vfx_trading_engine.dir/src/message_protocol.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vfx_trading_engine.dir/src/message_protocol.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\INMAV\Trading\vfx-trading\vfx-trading\backend\cpp\src\message_protocol.cpp -o CMakeFiles\vfx_trading_engine.dir\src\message_protocol.cpp.s
+
+CMakeFiles/vfx_trading_engine.dir/src/strategy_manager.cpp.obj: CMakeFiles/vfx_trading_engine.dir/flags.make
+CMakeFiles/vfx_trading_engine.dir/src/strategy_manager.cpp.obj: CMakeFiles/vfx_trading_engine.dir/includes_CXX.rsp
+CMakeFiles/vfx_trading_engine.dir/src/strategy_manager.cpp.obj: E:/INMAV/Trading/vfx-trading/vfx-trading/backend/cpp/src/strategy_manager.cpp
+CMakeFiles/vfx_trading_engine.dir/src/strategy_manager.cpp.obj: CMakeFiles/vfx_trading_engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\INMAV\Trading\vfx-trading\vfx-trading\backend\cpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/vfx_trading_engine.dir/src/strategy_manager.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vfx_trading_engine.dir/src/strategy_manager.cpp.obj -MF CMakeFiles\vfx_trading_engine.dir\src\strategy_manager.cpp.obj.d -o CMakeFiles\vfx_trading_engine.dir\src\strategy_manager.cpp.obj -c E:\INMAV\Trading\vfx-trading\vfx-trading\backend\cpp\src\strategy_manager.cpp
+
+CMakeFiles/vfx_trading_engine.dir/src/strategy_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/vfx_trading_engine.dir/src/strategy_manager.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\INMAV\Trading\vfx-trading\vfx-trading\backend\cpp\src\strategy_manager.cpp > CMakeFiles\vfx_trading_engine.dir\src\strategy_manager.cpp.i
+
+CMakeFiles/vfx_trading_engine.dir/src/strategy_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/vfx_trading_engine.dir/src/strategy_manager.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\INMAV\Trading\vfx-trading\vfx-trading\backend\cpp\src\strategy_manager.cpp -o CMakeFiles\vfx_trading_engine.dir\src\strategy_manager.cpp.s
+
 # Object files for target vfx_trading_engine
 vfx_trading_engine_OBJECTS = \
 "CMakeFiles/vfx_trading_engine.dir/src/main.cpp.obj" \
@@ -168,7 +198,9 @@ vfx_trading_engine_OBJECTS = \
 "CMakeFiles/vfx_trading_engine.dir/src/websocket_server.cpp.obj" \
 "CMakeFiles/vfx_trading_engine.dir/src/order_manager.cpp.obj" \
 "CMakeFiles/vfx_trading_engine.dir/src/market_data.cpp.obj" \
-"CMakeFiles/vfx_trading_engine.dir/src/risk_manager.cpp.obj"
+"CMakeFiles/vfx_trading_engine.dir/src/risk_manager.cpp.obj" \
+"CMakeFiles/vfx_trading_engine.dir/src/message_protocol.cpp.obj" \
+"CMakeFiles/vfx_trading_engine.dir/src/strategy_manager.cpp.obj"
 
 # External object files for target vfx_trading_engine
 vfx_trading_engine_EXTERNAL_OBJECTS =
@@ -179,11 +211,13 @@ vfx_trading_engine.exe: CMakeFiles/vfx_trading_engine.dir/src/websocket_server.c
 vfx_trading_engine.exe: CMakeFiles/vfx_trading_engine.dir/src/order_manager.cpp.obj
 vfx_trading_engine.exe: CMakeFiles/vfx_trading_engine.dir/src/market_data.cpp.obj
 vfx_trading_engine.exe: CMakeFiles/vfx_trading_engine.dir/src/risk_manager.cpp.obj
+vfx_trading_engine.exe: CMakeFiles/vfx_trading_engine.dir/src/message_protocol.cpp.obj
+vfx_trading_engine.exe: CMakeFiles/vfx_trading_engine.dir/src/strategy_manager.cpp.obj
 vfx_trading_engine.exe: CMakeFiles/vfx_trading_engine.dir/build.make
 vfx_trading_engine.exe: CMakeFiles/vfx_trading_engine.dir/linkLibs.rsp
 vfx_trading_engine.exe: CMakeFiles/vfx_trading_engine.dir/objects1.rsp
 vfx_trading_engine.exe: CMakeFiles/vfx_trading_engine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\INMAV\Trading\vfx-trading\vfx-trading\backend\cpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable vfx_trading_engine.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\INMAV\Trading\vfx-trading\vfx-trading\backend\cpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable vfx_trading_engine.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\vfx_trading_engine.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

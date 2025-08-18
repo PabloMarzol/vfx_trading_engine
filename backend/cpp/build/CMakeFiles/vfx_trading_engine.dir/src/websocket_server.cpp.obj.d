@@ -184,6 +184,98 @@ CMakeFiles/vfx_trading_engine.dir/src/websocket_server.cpp.obj: \
  C:/mingw64/include/c++/15.1.0/bits/std_function.h \
  C:/mingw64/include/c++/15.1.0/array \
  C:/mingw64/include/c++/15.1.0/compare \
+ E:/INMAV/Trading/vfx-trading/vfx-trading/backend/cpp/include/message_protocol.h \
+ E:/INMAV/Trading/vfx-trading/vfx-trading/backend/cpp/external/json/json.hpp \
+ C:/mingw64/include/c++/15.1.0/algorithm \
+ C:/mingw64/include/c++/15.1.0/bits/stl_algo.h \
+ C:/mingw64/include/c++/15.1.0/bits/algorithmfwd.h \
+ C:/mingw64/include/c++/15.1.0/bits/stl_heap.h \
+ C:/mingw64/include/c++/15.1.0/bits/uniform_int_dist.h \
+ C:/mingw64/include/c++/15.1.0/pstl/glue_algorithm_defs.h \
+ C:/mingw64/include/c++/15.1.0/iterator \
+ C:/mingw64/include/c++/15.1.0/bits/stream_iterator.h \
+ C:/mingw64/include/c++/15.1.0/bits/streambuf_iterator.h \
+ C:/mingw64/include/c++/15.1.0/streambuf \
+ C:/mingw64/include/c++/15.1.0/bits/ios_base.h \
+ C:/mingw64/include/c++/15.1.0/bits/locale_classes.h \
+ C:/mingw64/include/c++/15.1.0/bits/locale_classes.tcc \
+ C:/mingw64/include/c++/15.1.0/system_error \
+ C:/mingw64/include/c++/15.1.0/stdexcept \
+ C:/mingw64/include/c++/15.1.0/bits/streambuf.tcc \
+ C:/mingw64/include/c++/15.1.0/utility \
+ C:/mingw64/include/c++/15.1.0/bits/stl_relops.h \
+ C:/mingw64/include/c++/15.1.0/forward_list \
+ C:/mingw64/include/c++/15.1.0/bits/forward_list.h \
+ C:/mingw64/include/c++/15.1.0/bits/forward_list.tcc \
+ C:/mingw64/include/c++/15.1.0/map \
+ C:/mingw64/include/c++/15.1.0/bits/stl_tree.h \
+ C:/mingw64/include/c++/15.1.0/bits/stl_map.h \
+ C:/mingw64/include/c++/15.1.0/bits/stl_multimap.h \
+ C:/mingw64/include/c++/15.1.0/valarray \
+ C:/mingw64/include/c++/15.1.0/bits/valarray_array.h \
+ C:/mingw64/include/c++/15.1.0/bits/valarray_array.tcc \
+ C:/mingw64/include/c++/15.1.0/bits/valarray_before.h \
+ C:/mingw64/include/c++/15.1.0/bits/slice_array.h \
+ C:/mingw64/include/c++/15.1.0/bits/valarray_after.h \
+ C:/mingw64/include/c++/15.1.0/bits/gslice.h \
+ C:/mingw64/include/c++/15.1.0/bits/gslice_array.h \
+ C:/mingw64/include/c++/15.1.0/bits/mask_array.h \
+ C:/mingw64/include/c++/15.1.0/bits/indirect_array.h \
+ C:/mingw64/include/c++/15.1.0/version \
+ C:/mingw64/include/c++/15.1.0/cassert \
+ C:/mingw64/x86_64-w64-mingw32/include/assert.h \
+ C:/mingw64/include/c++/15.1.0/cstring \
+ C:/mingw64/x86_64-w64-mingw32/include/string.h \
+ C:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+ C:/mingw64/include/c++/15.1.0/filesystem \
+ C:/mingw64/include/c++/15.1.0/bits/fs_fwd.h \
+ C:/mingw64/include/c++/15.1.0/bits/fs_path.h \
+ C:/mingw64/include/c++/15.1.0/locale \
+ C:/mingw64/include/c++/15.1.0/bits/locale_facets.h \
+ C:/mingw64/include/c++/15.1.0/cwctype \
+ C:/mingw64/x86_64-w64-mingw32/include/wctype.h \
+ C:/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/ctype_base.h \
+ C:/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/ctype_inline.h \
+ C:/mingw64/include/c++/15.1.0/bits/locale_facets.tcc \
+ C:/mingw64/include/c++/15.1.0/bits/locale_facets_nonio.h \
+ C:/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/time_members.h \
+ C:/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/messages_members.h \
+ C:/mingw64/include/c++/15.1.0/bits/codecvt.h \
+ C:/mingw64/include/c++/15.1.0/bits/locale_facets_nonio.tcc \
+ C:/mingw64/include/c++/15.1.0/bits/locale_conv.h \
+ C:/mingw64/include/c++/15.1.0/iomanip \
+ C:/mingw64/include/c++/15.1.0/bits/quoted_string.h \
+ C:/mingw64/include/c++/15.1.0/sstream \
+ C:/mingw64/include/c++/15.1.0/istream C:/mingw64/include/c++/15.1.0/ios \
+ C:/mingw64/include/c++/15.1.0/bits/basic_ios.h \
+ C:/mingw64/include/c++/15.1.0/bits/basic_ios.tcc \
+ C:/mingw64/include/c++/15.1.0/ostream \
+ C:/mingw64/include/c++/15.1.0/bits/ostream.h \
+ C:/mingw64/include/c++/15.1.0/bits/ostream.tcc \
+ C:/mingw64/include/c++/15.1.0/bits/istream.tcc \
+ C:/mingw64/include/c++/15.1.0/bits/sstream.tcc \
+ C:/mingw64/include/c++/15.1.0/codecvt \
+ C:/mingw64/include/c++/15.1.0/bits/fs_dir.h \
+ C:/mingw64/include/c++/15.1.0/bits/fs_ops.h \
+ C:/mingw64/include/c++/15.1.0/numeric \
+ C:/mingw64/include/c++/15.1.0/bits/stl_numeric.h \
+ C:/mingw64/include/c++/15.1.0/pstl/glue_numeric_defs.h \
+ C:/mingw64/include/c++/15.1.0/any \
+ E:/INMAV/Trading/vfx-trading/vfx-trading/backend/cpp/include/order_manager.h \
+ C:/mingw64/include/c++/15.1.0/queue C:/mingw64/include/c++/15.1.0/deque \
+ C:/mingw64/include/c++/15.1.0/bits/stl_deque.h \
+ C:/mingw64/include/c++/15.1.0/bits/deque.tcc \
+ C:/mingw64/include/c++/15.1.0/bits/stl_queue.h \
+ C:/mingw64/include/c++/15.1.0/shared_mutex \
+ C:/mingw64/include/c++/15.1.0/condition_variable \
+ E:/INMAV/Trading/vfx-trading/vfx-trading/backend/cpp/include/market_data.h \
+ C:/mingw64/include/c++/15.1.0/random \
+ C:/mingw64/include/c++/15.1.0/bits/random.h \
+ C:/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/opt_random.h \
+ C:/mingw64/include/c++/15.1.0/bits/random.tcc \
+ E:/INMAV/Trading/vfx-trading/vfx-trading/backend/cpp/include/risk_manager.h \
+ E:/INMAV/Trading/vfx-trading/vfx-trading/backend/cpp/include/strategy_manager.h \
+ E:/INMAV/Trading/vfx-trading/vfx-trading/backend/cpp/external/json/json.hpp \
  C:/mingw64/x86_64-w64-mingw32/include/winsock2.h \
  C:/mingw64/x86_64-w64-mingw32/include/_mingw_unicode.h \
  C:/mingw64/x86_64-w64-mingw32/include/windows.h \
@@ -204,8 +296,6 @@ CMakeFiles/vfx_trading_engine.dir/src/websocket_server.cpp.obj: \
  C:/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
  C:/mingw64/x86_64-w64-mingw32/include/basetsd.h \
  C:/mingw64/x86_64-w64-mingw32/include/guiddef.h \
- C:/mingw64/x86_64-w64-mingw32/include/string.h \
- C:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86intrin.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86gprintrin.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ia32intrin.h \
@@ -456,48 +546,9 @@ CMakeFiles/vfx_trading_engine.dir/src/websocket_server.cpp.obj: \
  C:/mingw64/x86_64-w64-mingw32/include/psdk_inc/_ip_mreq1.h \
  C:/mingw64/x86_64-w64-mingw32/include/mstcpip.h \
  C:/mingw64/include/c++/15.1.0/iostream \
- C:/mingw64/include/c++/15.1.0/ostream \
- C:/mingw64/include/c++/15.1.0/bits/ostream.h \
- C:/mingw64/include/c++/15.1.0/ios \
- C:/mingw64/include/c++/15.1.0/bits/ios_base.h \
- C:/mingw64/include/c++/15.1.0/bits/locale_classes.h \
- C:/mingw64/include/c++/15.1.0/bits/locale_classes.tcc \
- C:/mingw64/include/c++/15.1.0/system_error \
- C:/mingw64/include/c++/15.1.0/stdexcept \
- C:/mingw64/include/c++/15.1.0/streambuf \
- C:/mingw64/include/c++/15.1.0/bits/streambuf.tcc \
- C:/mingw64/include/c++/15.1.0/bits/basic_ios.h \
- C:/mingw64/include/c++/15.1.0/bits/locale_facets.h \
- C:/mingw64/include/c++/15.1.0/cwctype \
- C:/mingw64/x86_64-w64-mingw32/include/wctype.h \
- C:/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/ctype_base.h \
- C:/mingw64/include/c++/15.1.0/bits/streambuf_iterator.h \
- C:/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/ctype_inline.h \
- C:/mingw64/include/c++/15.1.0/bits/locale_facets.tcc \
- C:/mingw64/include/c++/15.1.0/bits/basic_ios.tcc \
- C:/mingw64/include/c++/15.1.0/bits/ostream.tcc \
- C:/mingw64/include/c++/15.1.0/istream \
- C:/mingw64/include/c++/15.1.0/bits/istream.tcc \
- C:/mingw64/include/c++/15.1.0/sstream \
- C:/mingw64/include/c++/15.1.0/bits/sstream.tcc \
  C:/mingw64/include/c++/15.1.0/regex C:/mingw64/include/c++/15.1.0/bitset \
- C:/mingw64/include/c++/15.1.0/locale \
- C:/mingw64/include/c++/15.1.0/bits/locale_facets_nonio.h \
- C:/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/time_members.h \
- C:/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/messages_members.h \
- C:/mingw64/include/c++/15.1.0/bits/codecvt.h \
- C:/mingw64/include/c++/15.1.0/bits/locale_facets_nonio.tcc \
- C:/mingw64/include/c++/15.1.0/bits/locale_conv.h \
- C:/mingw64/include/c++/15.1.0/stack C:/mingw64/include/c++/15.1.0/deque \
- C:/mingw64/include/c++/15.1.0/bits/stl_deque.h \
- C:/mingw64/include/c++/15.1.0/bits/deque.tcc \
+ C:/mingw64/include/c++/15.1.0/stack \
  C:/mingw64/include/c++/15.1.0/bits/stl_stack.h \
- C:/mingw64/include/c++/15.1.0/bits/stl_algo.h \
- C:/mingw64/include/c++/15.1.0/bits/algorithmfwd.h \
- C:/mingw64/include/c++/15.1.0/bits/stl_heap.h \
- C:/mingw64/include/c++/15.1.0/bits/uniform_int_dist.h \
- C:/mingw64/include/c++/15.1.0/bits/stl_tree.h \
- C:/mingw64/include/c++/15.1.0/bits/stl_map.h \
  C:/mingw64/include/c++/15.1.0/bits/regex_constants.h \
  C:/mingw64/include/c++/15.1.0/bits/regex_error.h \
  C:/mingw64/include/c++/15.1.0/bits/regex_automaton.h \
@@ -509,15 +560,4 @@ CMakeFiles/vfx_trading_engine.dir/src/websocket_server.cpp.obj: \
  C:/mingw64/include/c++/15.1.0/bits/regex.h \
  C:/mingw64/include/c++/15.1.0/bits/regex.tcc \
  C:/mingw64/include/c++/15.1.0/bits/regex_executor.h \
- C:/mingw64/include/c++/15.1.0/bits/regex_executor.tcc \
- C:/mingw64/include/c++/15.1.0/algorithm \
- C:/mingw64/include/c++/15.1.0/pstl/glue_algorithm_defs.h \
- C:/mingw64/include/c++/15.1.0/iomanip \
- C:/mingw64/include/c++/15.1.0/bits/quoted_string.h \
- C:/mingw64/include/c++/15.1.0/random \
- C:/mingw64/include/c++/15.1.0/bits/random.h \
- C:/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/opt_random.h \
- C:/mingw64/include/c++/15.1.0/bits/random.tcc \
- C:/mingw64/include/c++/15.1.0/numeric \
- C:/mingw64/include/c++/15.1.0/bits/stl_numeric.h \
- C:/mingw64/include/c++/15.1.0/pstl/glue_numeric_defs.h
+ C:/mingw64/include/c++/15.1.0/bits/regex_executor.tcc

@@ -398,16 +398,11 @@ CMakeFiles/vfx_trading_engine.dir/src/market_data.cpp.obj: E:/INMAV/Trading/vfx-
   C:/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/gthr.h \
   C:/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/opt_random.h \
   C:/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/os_defines.h \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h \
   C:/mingw64/x86_64-w64-mingw32/include/_mingw.h \
   C:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
   C:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
@@ -639,16 +634,11 @@ CMakeFiles/vfx_trading_engine.dir/src/order_manager.cpp.obj: E:/INMAV/Trading/vf
   C:/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/gthr.h \
   C:/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/opt_random.h \
   C:/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/os_defines.h \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h \
   C:/mingw64/x86_64-w64-mingw32/include/_mingw.h \
   C:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
   C:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
@@ -878,16 +868,11 @@ CMakeFiles/vfx_trading_engine.dir/src/risk_manager.cpp.obj: E:/INMAV/Trading/vfx
   C:/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/gthr.h \
   C:/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/opt_random.h \
   C:/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/os_defines.h \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h \
   C:/mingw64/x86_64-w64-mingw32/include/_mingw.h \
   C:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
   C:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
@@ -1116,16 +1101,11 @@ CMakeFiles/vfx_trading_engine.dir/src/trading_engine.cpp.obj: E:/INMAV/Trading/v
   C:/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/gthr.h \
   C:/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/opt_random.h \
   C:/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/os_defines.h \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/limits.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/syslimits.h \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h \
   C:/mingw64/x86_64-w64-mingw32/include/_mingw.h \
   C:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
   C:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
@@ -1175,6 +1155,7 @@ CMakeFiles/vfx_trading_engine.dir/src/trading_engine.cpp.obj: E:/INMAV/Trading/v
 
 CMakeFiles/vfx_trading_engine.dir/src/websocket_server.cpp.obj: E:/INMAV/Trading/vfx-trading/vfx-trading/backend/cpp/src/websocket_server.cpp \
   C:/mingw64/include/c++/15.1.0/algorithm \
+  C:/mingw64/include/c++/15.1.0/any \
   C:/mingw64/include/c++/15.1.0/array \
   C:/mingw64/include/c++/15.1.0/atomic \
   C:/mingw64/include/c++/15.1.0/backward/auto_ptr.h \
@@ -1205,11 +1186,20 @@ CMakeFiles/vfx_trading_engine.dir/src/websocket_server.cpp.obj: E:/INMAV/Trading
   C:/mingw64/include/c++/15.1.0/bits/exception.h \
   C:/mingw64/include/c++/15.1.0/bits/exception_defines.h \
   C:/mingw64/include/c++/15.1.0/bits/exception_ptr.h \
+  C:/mingw64/include/c++/15.1.0/bits/forward_list.h \
+  C:/mingw64/include/c++/15.1.0/bits/forward_list.tcc \
+  C:/mingw64/include/c++/15.1.0/bits/fs_dir.h \
+  C:/mingw64/include/c++/15.1.0/bits/fs_fwd.h \
+  C:/mingw64/include/c++/15.1.0/bits/fs_ops.h \
+  C:/mingw64/include/c++/15.1.0/bits/fs_path.h \
   C:/mingw64/include/c++/15.1.0/bits/functexcept.h \
   C:/mingw64/include/c++/15.1.0/bits/functional_hash.h \
+  C:/mingw64/include/c++/15.1.0/bits/gslice.h \
+  C:/mingw64/include/c++/15.1.0/bits/gslice_array.h \
   C:/mingw64/include/c++/15.1.0/bits/hash_bytes.h \
   C:/mingw64/include/c++/15.1.0/bits/hashtable.h \
   C:/mingw64/include/c++/15.1.0/bits/hashtable_policy.h \
+  C:/mingw64/include/c++/15.1.0/bits/indirect_array.h \
   C:/mingw64/include/c++/15.1.0/bits/invoke.h \
   C:/mingw64/include/c++/15.1.0/bits/ios_base.h \
   C:/mingw64/include/c++/15.1.0/bits/istream.tcc \
@@ -1221,6 +1211,7 @@ CMakeFiles/vfx_trading_engine.dir/src/websocket_server.cpp.obj: E:/INMAV/Trading
   C:/mingw64/include/c++/15.1.0/bits/locale_facets_nonio.h \
   C:/mingw64/include/c++/15.1.0/bits/locale_facets_nonio.tcc \
   C:/mingw64/include/c++/15.1.0/bits/localefwd.h \
+  C:/mingw64/include/c++/15.1.0/bits/mask_array.h \
   C:/mingw64/include/c++/15.1.0/bits/memory_resource.h \
   C:/mingw64/include/c++/15.1.0/bits/memoryfwd.h \
   C:/mingw64/include/c++/15.1.0/bits/move.h \
@@ -1255,6 +1246,7 @@ CMakeFiles/vfx_trading_engine.dir/src/websocket_server.cpp.obj: E:/INMAV/Trading
   C:/mingw64/include/c++/15.1.0/bits/shared_ptr.h \
   C:/mingw64/include/c++/15.1.0/bits/shared_ptr_atomic.h \
   C:/mingw64/include/c++/15.1.0/bits/shared_ptr_base.h \
+  C:/mingw64/include/c++/15.1.0/bits/slice_array.h \
   C:/mingw64/include/c++/15.1.0/bits/specfun.h \
   C:/mingw64/include/c++/15.1.0/bits/sstream.tcc \
   C:/mingw64/include/c++/15.1.0/bits/std_abs.h \
@@ -1272,14 +1264,18 @@ CMakeFiles/vfx_trading_engine.dir/src/websocket_server.cpp.obj: E:/INMAV/Trading
   C:/mingw64/include/c++/15.1.0/bits/stl_iterator_base_funcs.h \
   C:/mingw64/include/c++/15.1.0/bits/stl_iterator_base_types.h \
   C:/mingw64/include/c++/15.1.0/bits/stl_map.h \
+  C:/mingw64/include/c++/15.1.0/bits/stl_multimap.h \
   C:/mingw64/include/c++/15.1.0/bits/stl_numeric.h \
   C:/mingw64/include/c++/15.1.0/bits/stl_pair.h \
+  C:/mingw64/include/c++/15.1.0/bits/stl_queue.h \
   C:/mingw64/include/c++/15.1.0/bits/stl_raw_storage_iter.h \
+  C:/mingw64/include/c++/15.1.0/bits/stl_relops.h \
   C:/mingw64/include/c++/15.1.0/bits/stl_stack.h \
   C:/mingw64/include/c++/15.1.0/bits/stl_tempbuf.h \
   C:/mingw64/include/c++/15.1.0/bits/stl_tree.h \
   C:/mingw64/include/c++/15.1.0/bits/stl_uninitialized.h \
   C:/mingw64/include/c++/15.1.0/bits/stl_vector.h \
+  C:/mingw64/include/c++/15.1.0/bits/stream_iterator.h \
   C:/mingw64/include/c++/15.1.0/bits/streambuf.tcc \
   C:/mingw64/include/c++/15.1.0/bits/streambuf_iterator.h \
   C:/mingw64/include/c++/15.1.0/bits/string_view.tcc \
@@ -1292,20 +1288,28 @@ CMakeFiles/vfx_trading_engine.dir/src/websocket_server.cpp.obj: E:/INMAV/Trading
   C:/mingw64/include/c++/15.1.0/bits/uses_allocator.h \
   C:/mingw64/include/c++/15.1.0/bits/uses_allocator_args.h \
   C:/mingw64/include/c++/15.1.0/bits/utility.h \
+  C:/mingw64/include/c++/15.1.0/bits/valarray_after.h \
+  C:/mingw64/include/c++/15.1.0/bits/valarray_array.h \
+  C:/mingw64/include/c++/15.1.0/bits/valarray_array.tcc \
+  C:/mingw64/include/c++/15.1.0/bits/valarray_before.h \
   C:/mingw64/include/c++/15.1.0/bits/vector.tcc \
   C:/mingw64/include/c++/15.1.0/bits/version.h \
   C:/mingw64/include/c++/15.1.0/bitset \
+  C:/mingw64/include/c++/15.1.0/cassert \
   C:/mingw64/include/c++/15.1.0/cctype \
   C:/mingw64/include/c++/15.1.0/cerrno \
   C:/mingw64/include/c++/15.1.0/chrono \
   C:/mingw64/include/c++/15.1.0/clocale \
   C:/mingw64/include/c++/15.1.0/cmath \
+  C:/mingw64/include/c++/15.1.0/codecvt \
   C:/mingw64/include/c++/15.1.0/compare \
   C:/mingw64/include/c++/15.1.0/concepts \
+  C:/mingw64/include/c++/15.1.0/condition_variable \
   C:/mingw64/include/c++/15.1.0/cstddef \
   C:/mingw64/include/c++/15.1.0/cstdint \
   C:/mingw64/include/c++/15.1.0/cstdio \
   C:/mingw64/include/c++/15.1.0/cstdlib \
+  C:/mingw64/include/c++/15.1.0/cstring \
   C:/mingw64/include/c++/15.1.0/ctime \
   C:/mingw64/include/c++/15.1.0/cwchar \
   C:/mingw64/include/c++/15.1.0/cwctype \
@@ -1320,6 +1324,8 @@ CMakeFiles/vfx_trading_engine.dir/src/websocket_server.cpp.obj: E:/INMAV/Trading
   C:/mingw64/include/c++/15.1.0/ext/numeric_traits.h \
   C:/mingw64/include/c++/15.1.0/ext/string_conversions.h \
   C:/mingw64/include/c++/15.1.0/ext/type_traits.h \
+  C:/mingw64/include/c++/15.1.0/filesystem \
+  C:/mingw64/include/c++/15.1.0/forward_list \
   C:/mingw64/include/c++/15.1.0/functional \
   C:/mingw64/include/c++/15.1.0/initializer_list \
   C:/mingw64/include/c++/15.1.0/iomanip \
@@ -1327,8 +1333,10 @@ CMakeFiles/vfx_trading_engine.dir/src/websocket_server.cpp.obj: E:/INMAV/Trading
   C:/mingw64/include/c++/15.1.0/iosfwd \
   C:/mingw64/include/c++/15.1.0/iostream \
   C:/mingw64/include/c++/15.1.0/istream \
+  C:/mingw64/include/c++/15.1.0/iterator \
   C:/mingw64/include/c++/15.1.0/limits \
   C:/mingw64/include/c++/15.1.0/locale \
+  C:/mingw64/include/c++/15.1.0/map \
   C:/mingw64/include/c++/15.1.0/memory \
   C:/mingw64/include/c++/15.1.0/mutex \
   C:/mingw64/include/c++/15.1.0/new \
@@ -1339,9 +1347,11 @@ CMakeFiles/vfx_trading_engine.dir/src/websocket_server.cpp.obj: E:/INMAV/Trading
   C:/mingw64/include/c++/15.1.0/pstl/glue_memory_defs.h \
   C:/mingw64/include/c++/15.1.0/pstl/glue_numeric_defs.h \
   C:/mingw64/include/c++/15.1.0/pstl/pstl_config.h \
+  C:/mingw64/include/c++/15.1.0/queue \
   C:/mingw64/include/c++/15.1.0/random \
   C:/mingw64/include/c++/15.1.0/ratio \
   C:/mingw64/include/c++/15.1.0/regex \
+  C:/mingw64/include/c++/15.1.0/shared_mutex \
   C:/mingw64/include/c++/15.1.0/sstream \
   C:/mingw64/include/c++/15.1.0/stack \
   C:/mingw64/include/c++/15.1.0/stdexcept \
@@ -1367,7 +1377,10 @@ CMakeFiles/vfx_trading_engine.dir/src/websocket_server.cpp.obj: E:/INMAV/Trading
   C:/mingw64/include/c++/15.1.0/type_traits \
   C:/mingw64/include/c++/15.1.0/typeinfo \
   C:/mingw64/include/c++/15.1.0/unordered_map \
+  C:/mingw64/include/c++/15.1.0/utility \
+  C:/mingw64/include/c++/15.1.0/valarray \
   C:/mingw64/include/c++/15.1.0/vector \
+  C:/mingw64/include/c++/15.1.0/version \
   C:/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/atomic_word.h \
   C:/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -1516,6 +1529,7 @@ CMakeFiles/vfx_trading_engine.dir/src/websocket_server.cpp.obj: E:/INMAV/Trading
   C:/mingw64/x86_64-w64-mingw32/include/_timeval.h \
   C:/mingw64/x86_64-w64-mingw32/include/apiset.h \
   C:/mingw64/x86_64-w64-mingw32/include/apisetcconv.h \
+  C:/mingw64/x86_64-w64-mingw32/include/assert.h \
   C:/mingw64/x86_64-w64-mingw32/include/basetsd.h \
   C:/mingw64/x86_64-w64-mingw32/include/bcrypt.h \
   C:/mingw64/x86_64-w64-mingw32/include/bemapiset.h \
@@ -1694,6 +1708,12 @@ CMakeFiles/vfx_trading_engine.dir/src/websocket_server.cpp.obj: E:/INMAV/Trading
   C:/mingw64/x86_64-w64-mingw32/include/ws2tcpip.h \
   C:/mingw64/x86_64-w64-mingw32/include/wtypes.h \
   C:/mingw64/x86_64-w64-mingw32/include/wtypesbase.h \
+  E:/INMAV/Trading/vfx-trading/vfx-trading/backend/cpp/external/json/json.hpp \
+  E:/INMAV/Trading/vfx-trading/vfx-trading/backend/cpp/include/market_data.h \
+  E:/INMAV/Trading/vfx-trading/vfx-trading/backend/cpp/include/message_protocol.h \
+  E:/INMAV/Trading/vfx-trading/vfx-trading/backend/cpp/include/order_manager.h \
+  E:/INMAV/Trading/vfx-trading/vfx-trading/backend/cpp/include/risk_manager.h \
+  E:/INMAV/Trading/vfx-trading/vfx-trading/backend/cpp/include/strategy_manager.h \
   E:/INMAV/Trading/vfx-trading/vfx-trading/backend/cpp/include/types.h \
   E:/INMAV/Trading/vfx-trading/vfx-trading/backend/cpp/include/websocket_server.h
 
@@ -1822,6 +1842,8 @@ C:/mingw64/include/c++/15.1.0/bits/cpp_type_traits.h:
 
 C:/mingw64/include/c++/15.1.0/tr1/special_function_util.h:
 
+C:/mingw64/include/c++/15.1.0/bits/fs_dir.h:
+
 C:/mingw64/include/c++/15.1.0/bits/regex.h:
 
 C:/mingw64/include/c++/15.1.0/bits/cxxabi_forced.h:
@@ -1854,6 +1876,8 @@ C:/mingw64/include/c++/15.1.0/bits/ptr_traits.h:
 
 C:/mingw64/include/c++/15.1.0/algorithm:
 
+C:/mingw64/include/c++/15.1.0/bits/valarray_array.h:
+
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vbmi2intrin.h:
 
 C:/mingw64/include/c++/15.1.0/bits/functional_hash.h:
@@ -1867,6 +1891,8 @@ C:/mingw64/include/c++/15.1.0/bits/hash_bytes.h:
 C:/mingw64/include/c++/15.1.0/bits/hashtable.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/jobapi.h:
+
+C:/mingw64/include/c++/15.1.0/bits/valarray_array.tcc:
 
 C:/mingw64/include/c++/15.1.0/bits/shared_ptr_atomic.h:
 
@@ -1899,6 +1925,8 @@ C:/mingw64/include/c++/15.1.0/bits/ostream_insert.h:
 C:/mingw64/include/c++/15.1.0/bits/locale_facets_nonio.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16vlintrin.h:
+
+C:/mingw64/include/c++/15.1.0/bits/valarray_before.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxbf16intrin.h:
 
@@ -1934,11 +1962,15 @@ C:/mingw64/include/c++/15.1.0/sstream:
 
 C:/mingw64/include/c++/15.1.0/bits/std_thread.h:
 
+C:/mingw64/include/c++/15.1.0/bits/mask_array.h:
+
 C:/mingw64/x86_64-w64-mingw32/include/rpc.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/winspool.h:
 
 C:/mingw64/include/c++/15.1.0/bits/stl_algobase.h:
+
+C:/mingw64/include/c++/15.1.0/bits/indirect_array.h:
 
 C:/mingw64/include/c++/15.1.0/bits/stl_bvector.h:
 
@@ -1970,8 +2002,6 @@ C:/mingw64/include/c++/15.1.0/bits/stl_iterator_base_types.h:
 
 C:/mingw64/include/c++/15.1.0/exception:
 
-C:/mingw64/x86_64-w64-mingw32/include/stdarg.h:
-
 C:/mingw64/include/c++/15.1.0/bits/stl_pair.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h:
@@ -1988,7 +2018,11 @@ C:/mingw64/x86_64-w64-mingw32/include/reason.h:
 
 C:/mingw64/include/c++/15.1.0/bits/random.tcc:
 
+C:/mingw64/include/c++/15.1.0/any:
+
 C:/mingw64/include/c++/15.1.0/bits/stl_vector.h:
+
+C:/mingw64/include/c++/15.1.0/forward_list:
 
 C:/mingw64/include/c++/15.1.0/bits/streambuf.tcc:
 
@@ -2031,6 +2065,8 @@ C:/mingw64/include/c++/15.1.0/bits/uses_allocator_args.h:
 C:/mingw64/x86_64-w64-mingw32/include/process.h:
 
 C:/mingw64/include/c++/15.1.0/ext/aligned_buffer.h:
+
+C:/mingw64/include/c++/15.1.0/bits/fs_ops.h:
 
 C:/mingw64/include/c++/15.1.0/bits/utility.h:
 
@@ -2122,15 +2158,17 @@ C:/mingw64/include/c++/15.1.0/mutex:
 
 C:/mingw64/include/c++/15.1.0/new:
 
+C:/mingw64/include/c++/15.1.0/valarray:
+
 C:/mingw64/x86_64-w64-mingw32/include/joystickapi.h:
 
 C:/mingw64/include/c++/15.1.0/ostream:
 
 C:/mingw64/x86_64-w64-mingw32/include/mmsystem.h:
 
-C:/mingw64/x86_64-w64-mingw32/include/sec_api/stralign_s.h:
-
 C:/mingw64/include/c++/15.1.0/pstl/execution_defs.h:
+
+C:/mingw64/include/c++/15.1.0/cassert:
 
 C:/mingw64/x86_64-w64-mingw32/include/fltwinerror.h:
 
@@ -2162,8 +2200,6 @@ C:/mingw64/include/c++/15.1.0/string_view:
 
 C:/mingw64/include/c++/15.1.0/system_error:
 
-C:/mingw64/x86_64-w64-mingw32/include/stralign.h:
-
 C:/mingw64/include/c++/15.1.0/thread:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/tmmintrin.h:
@@ -2180,11 +2216,11 @@ C:/mingw64/include/c++/15.1.0/tr1/hypergeometric.tcc:
 
 C:/mingw64/x86_64-w64-mingw32/include/vadefs.h:
 
+C:/mingw64/x86_64-w64-mingw32/include/specstrings.h:
+
 C:/mingw64/include/c++/15.1.0/tr1/legendre_function.tcc:
 
 C:/mingw64/x86_64-w64-mingw32/include/oaidl.h:
-
-C:/mingw64/x86_64-w64-mingw32/include/specstrings.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/windows.h:
 
@@ -2193,8 +2229,6 @@ C:/mingw64/x86_64-w64-mingw32/include/playsoundapi.h:
 C:/mingw64/include/c++/15.1.0/tr1/modified_bessel_func.tcc:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/raointintrin.h:
-
-C:/mingw64/x86_64-w64-mingw32/include/shellapi.h:
 
 C:/mingw64/include/c++/15.1.0/tr1/poly_laguerre.tcc:
 
@@ -2276,7 +2310,11 @@ C:/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h:
 
+C:/mingw64/include/c++/15.1.0/bits/stream_iterator.h:
+
 C:/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h:
+
+C:/mingw64/include/c++/15.1.0/version:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512vp2intersectintrin.h:
 
@@ -2308,9 +2346,9 @@ C:/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h:
 
-C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
-
 C:/mingw64/x86_64-w64-mingw32/include/timeapi.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
 
 C:/mingw64/include/c++/15.1.0/bits/regex_compiler.tcc:
 
@@ -2334,9 +2372,9 @@ C:/mingw64/x86_64-w64-mingw32/include/stddef.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/stdint.h:
 
-C:/mingw64/x86_64-w64-mingw32/include/stdio.h:
-
 C:/mingw64/x86_64-w64-mingw32/include/synchapi.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/stdio.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/stdlib.h:
 
@@ -2352,11 +2390,15 @@ C:/mingw64/x86_64-w64-mingw32/include/winuser.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/rtmintrin.h:
 
+C:/mingw64/x86_64-w64-mingw32/include/assert.h:
+
 E:/INMAV/Trading/vfx-trading/vfx-trading/backend/cpp/include/trading_engine.h:
 
 E:/INMAV/Trading/vfx-trading/vfx-trading/backend/cpp/src/market_data.cpp:
 
 C:/mingw64/include/c++/15.1.0/bits/sstream.tcc:
+
+C:/mingw64/include/c++/15.1.0/utility:
 
 C:/mingw64/include/c++/15.1.0/bits/deque.tcc:
 
@@ -2365,6 +2407,8 @@ C:/mingw64/include/c++/15.1.0/bits/stl_deque.h:
 C:/mingw64/include/c++/15.1.0/bits/stl_queue.h:
 
 C:/mingw64/include/c++/15.1.0/bits/uniform_int_dist.h:
+
+C:/mingw64/include/c++/15.1.0/bits/fs_path.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/errhandlingapi.h:
 
@@ -2379,20 +2423,6 @@ C:/mingw64/include/c++/15.1.0/pstl/glue_algorithm_defs.h:
 C:/mingw64/include/c++/15.1.0/pstl/glue_numeric_defs.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/in6addr.h:
-
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h:
-
-C:/mingw64/x86_64-w64-mingw32/include/oleauto.h:
-
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h:
-
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h:
-
-C:/mingw64/x86_64-w64-mingw32/include/apiset.h:
-
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h:
-
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h:
 
 E:/INMAV/Trading/vfx-trading/vfx-trading/backend/cpp/src/order_manager.cpp:
 
@@ -2411,6 +2441,20 @@ E:/INMAV/Trading/vfx-trading/vfx-trading/backend/cpp/src/websocket_server.cpp:
 C:/mingw64/include/c++/15.1.0/bits/codecvt.h:
 
 C:/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/messages_members.h:
+
+C:/mingw64/include/c++/15.1.0/bits/forward_list.h:
+
+C:/mingw64/include/c++/15.1.0/bits/forward_list.tcc:
+
+C:/mingw64/include/c++/15.1.0/bits/fs_fwd.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/handleapi.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/interlockedapi.h:
+
+C:/mingw64/include/c++/15.1.0/bits/gslice.h:
+
+C:/mingw64/include/c++/15.1.0/bits/gslice_array.h:
 
 C:/mingw64/include/c++/15.1.0/bits/locale_conv.h:
 
@@ -2442,21 +2486,39 @@ C:/mingw64/include/c++/15.1.0/bits/regex_executor.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avx512bf16intrin.h:
 
-C:/mingw64/x86_64-w64-mingw32/include/virtdisk.h:
+C:/mingw64/x86_64-w64-mingw32/include/unknwnbase.h:
 
 C:/mingw64/include/c++/15.1.0/bits/regex_executor.tcc:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clwbintrin.h:
 
-C:/mingw64/x86_64-w64-mingw32/include/unknwnbase.h:
-
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxintrin.h:
 
 C:/mingw64/include/c++/15.1.0/bits/regex_scanner.h:
 
+C:/mingw64/include/c++/15.1.0/bits/slice_array.h:
+
+C:/mingw64/include/c++/15.1.0/bits/stl_relops.h:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/enqcmdintrin.h:
+
 C:/mingw64/include/c++/15.1.0/bits/stl_stack.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/minwindef.h:
+
+C:/mingw64/include/c++/15.1.0/bits/valarray_after.h:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveoptintrin.h:
+
+C:/mingw64/include/c++/15.1.0/codecvt:
+
+C:/mingw64/include/c++/15.1.0/cstring:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ammintrin.h:
+
+C:/mingw64/include/c++/15.1.0/filesystem:
+
+C:/mingw64/include/c++/15.1.0/iterator:
 
 C:/mingw64/include/c++/15.1.0/regex:
 
@@ -2471,8 +2533,6 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxtileintrin.h:
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/adxintrin.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/apisetcconv.h:
-
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/ammintrin.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxavx512intrin.h:
 
@@ -2560,15 +2620,17 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/avxvnniintrin.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cldemoteintrin.h:
 
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clflushoptintrin.h:
-
 C:/mingw64/x86_64-w64-mingw32/include/securityappcontainer.h:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/clflushoptintrin.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/wbnoinvdintrin.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/cmpccxaddintrin.h:
 
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/enqcmdintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/emmintrin.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/oleauto.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/f16cintrin.h:
 
@@ -2594,11 +2656,19 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/lzcntintrin.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm3dnow.h:
 
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mmintrin.h:
+
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movdirintrin.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/movrsintrin.h:
 
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mwaitintrin.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/apiset.h:
+
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pconfigintrin.h:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/pmmintrin.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/popcntintrin.h:
 
@@ -2620,7 +2690,7 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86gprintrin.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/x86intrin.h:
 
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsaveoptintrin.h:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xmmintrin.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/xsavesintrin.h:
 
@@ -2640,19 +2710,15 @@ C:/mingw64/x86_64-w64-mingw32/include/commdlg.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/dde.h:
 
-C:/mingw64/x86_64-w64-mingw32/include/debugapi.h:
-
 C:/mingw64/x86_64-w64-mingw32/include/string.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/debugapi.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/dlgs.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/psdk_inc/_wsa_errnos.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/guiddef.h:
-
-C:/mingw64/x86_64-w64-mingw32/include/handleapi.h:
-
-C:/mingw64/x86_64-w64-mingw32/include/interlockedapi.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/imm.h:
 
@@ -2708,9 +2774,11 @@ C:/mingw64/x86_64-w64-mingw32/include/rpcdcep.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/rpcndr.h:
 
+C:/mingw64/x86_64-w64-mingw32/include/utilapiset.h:
+
 C:/mingw64/x86_64-w64-mingw32/include/rpcnterr.h:
 
-C:/mingw64/x86_64-w64-mingw32/include/utilapiset.h:
+C:/mingw64/x86_64-w64-mingw32/include/sec_api/stralign_s.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h:
 
@@ -2718,15 +2786,23 @@ C:/mingw64/x86_64-w64-mingw32/include/securitybaseapi.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/servprov.h:
 
+C:/mingw64/x86_64-w64-mingw32/include/shellapi.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/stdarg.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/stralign.h:
+
 C:/mingw64/x86_64-w64-mingw32/include/stringapiset.h:
+
+E:/INMAV/Trading/vfx-trading/vfx-trading/backend/cpp/include/strategy_manager.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/sysinfoapi.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/systemtopologyapi.h:
 
-C:/mingw64/x86_64-w64-mingw32/include/threadpoolapiset.h:
-
 C:/mingw64/x86_64-w64-mingw32/include/wincrypt.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/threadpoolapiset.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/threadpoollegacyapiset.h:
 
@@ -2737,6 +2813,8 @@ C:/mingw64/x86_64-w64-mingw32/include/tvout.h:
 C:/mingw64/x86_64-w64-mingw32/include/unknwn.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/urlmon.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/virtdisk.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/winapifamily.h:
 
@@ -2773,3 +2851,7 @@ C:/mingw64/x86_64-w64-mingw32/include/wnnc.h:
 C:/mingw64/x86_64-w64-mingw32/include/wow64apiset.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/ws2def.h:
+
+E:/INMAV/Trading/vfx-trading/vfx-trading/backend/cpp/external/json/json.hpp:
+
+E:/INMAV/Trading/vfx-trading/vfx-trading/backend/cpp/include/message_protocol.h:

@@ -535,5 +535,6 @@ void SimulatedMarketFeed::simulate_data() {
     }
 }
 
+
 } // namespace trading
 } // namespace vfx

@@ -176,6 +176,30 @@ src/market_data.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\vfx_trading_engine.dir\build.make CMakeFiles/vfx_trading_engine.dir/src/market_data.cpp.s
 .PHONY : src/market_data.cpp.s
 
+src/message_protocol.obj: src/message_protocol.cpp.obj
+.PHONY : src/message_protocol.obj
+
+# target to build an object file
+src/message_protocol.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vfx_trading_engine.dir\build.make CMakeFiles/vfx_trading_engine.dir/src/message_protocol.cpp.obj
+.PHONY : src/message_protocol.cpp.obj
+
+src/message_protocol.i: src/message_protocol.cpp.i
+.PHONY : src/message_protocol.i
+
+# target to preprocess a source file
+src/message_protocol.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vfx_trading_engine.dir\build.make CMakeFiles/vfx_trading_engine.dir/src/message_protocol.cpp.i
+.PHONY : src/message_protocol.cpp.i
+
+src/message_protocol.s: src/message_protocol.cpp.s
+.PHONY : src/message_protocol.s
+
+# target to generate assembly for a file
+src/message_protocol.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vfx_trading_engine.dir\build.make CMakeFiles/vfx_trading_engine.dir/src/message_protocol.cpp.s
+.PHONY : src/message_protocol.cpp.s
+
 src/order_manager.obj: src/order_manager.cpp.obj
 .PHONY : src/order_manager.obj
 
@@ -223,6 +247,30 @@ src/risk_manager.s: src/risk_manager.cpp.s
 src/risk_manager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\vfx_trading_engine.dir\build.make CMakeFiles/vfx_trading_engine.dir/src/risk_manager.cpp.s
 .PHONY : src/risk_manager.cpp.s
+
+src/strategy_manager.obj: src/strategy_manager.cpp.obj
+.PHONY : src/strategy_manager.obj
+
+# target to build an object file
+src/strategy_manager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vfx_trading_engine.dir\build.make CMakeFiles/vfx_trading_engine.dir/src/strategy_manager.cpp.obj
+.PHONY : src/strategy_manager.cpp.obj
+
+src/strategy_manager.i: src/strategy_manager.cpp.i
+.PHONY : src/strategy_manager.i
+
+# target to preprocess a source file
+src/strategy_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vfx_trading_engine.dir\build.make CMakeFiles/vfx_trading_engine.dir/src/strategy_manager.cpp.i
+.PHONY : src/strategy_manager.cpp.i
+
+src/strategy_manager.s: src/strategy_manager.cpp.s
+.PHONY : src/strategy_manager.s
+
+# target to generate assembly for a file
+src/strategy_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vfx_trading_engine.dir\build.make CMakeFiles/vfx_trading_engine.dir/src/strategy_manager.cpp.s
+.PHONY : src/strategy_manager.cpp.s
 
 src/trading_engine.obj: src/trading_engine.cpp.obj
 .PHONY : src/trading_engine.obj
@@ -287,12 +335,18 @@ help:
 	@echo ... src/market_data.obj
 	@echo ... src/market_data.i
 	@echo ... src/market_data.s
+	@echo ... src/message_protocol.obj
+	@echo ... src/message_protocol.i
+	@echo ... src/message_protocol.s
 	@echo ... src/order_manager.obj
 	@echo ... src/order_manager.i
 	@echo ... src/order_manager.s
 	@echo ... src/risk_manager.obj
 	@echo ... src/risk_manager.i
 	@echo ... src/risk_manager.s
+	@echo ... src/strategy_manager.obj
+	@echo ... src/strategy_manager.i
+	@echo ... src/strategy_manager.s
 	@echo ... src/trading_engine.obj
 	@echo ... src/trading_engine.i
 	@echo ... src/trading_engine.s

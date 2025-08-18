@@ -145,6 +145,7 @@ public:
     
 private:
     // Internal processing
+    void start_simulation();
     void process_market_data();
     void simulate_market_data();
     void process_tick(const MarketTick& tick);
