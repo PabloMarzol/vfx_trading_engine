@@ -1,14 +1,16 @@
-"""
-VFX Trading UI - FastAPI Backend
-"""
+
 import asyncio
 import logging
 from datetime import datetime, timedelta
 from typing import Dict, List, Optional, Any
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect, HTTPException
 from fastapi.staticfiles import StaticFiles
+from fastapi.responses import HTMLResponse, FileResponse
 from pydantic import BaseModel
 import httpx
+
+
+from demo_api_endpoints import setup_demo_routes
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -179,6 +181,9 @@ class CryptoDataManager:
 
 # Initialize FastAPI app
 app = FastAPI(title="VFX Trading UI", version="1.0.0")
+
+app = setup_demo_routes(app)
+
 connection_manager = ConnectionManager()
 crypto_manager = CryptoDataManager()
 
